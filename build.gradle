@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'com.thiago'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.0.0-beta-2'
+}
+
+test {
+}
